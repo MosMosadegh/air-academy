@@ -33,7 +33,8 @@ export const translations = {
     hero: {
       title: "آکادمی پرواز",
       subtitle: "پرواز را با ما تجربه کنید",
-      description: "باشگاه پروازی پاراگلایدر مطابق استانداردهای بین‌المللی APPI",
+      description:
+        "باشگاه پروازی پاراگلایدر مطابق استانداردهای بین‌المللی APPI",
       cta: "شروع یادگیری",
       tandemCta: "رزرو پرواز تفریحی",
     },
@@ -72,11 +73,35 @@ export const translations = {
         description: "آموزش پرواز با مسافر و گواهینامه تندم APPI",
       },
     },
+
+    features: {
+      title: "چرا آموزش در آکادمی ما؟",
+      description:
+        "ما تمام امکانات لازم برای یک آموزش ایمن، استاندارد و حرفه‌ای را در اختیار شما قرار می‌دهیم.",
+      items: [
+        {
+          title: "آموزش استاندارد",
+          desc: "آموزش بر اساس استانداردهای بین‌المللی و ایمنی",
+          icon: "shield",
+        },
+        {
+          title: "مربیان مجرب",
+          desc: "حضور مربیان با تجربه و دارای گواهینامه‌های معتبر",
+          icon: "users",
+        },
+        {
+          titlete: "تجهیزات مدرن",
+          desc: "استفاده از جدیدترین تجهیزات پروازی و ایمنی",
+          icon: "settings",
+        },
+      ],
+    },
     // About
     about: {
       title: "درباره آکادمی",
       mission: "ماموریت ما",
-      missionText: "ارائه آموزش حرفه‌ای پاراگلایدر با بالاترین استانداردهای ایمنی",
+      missionText:
+        "ارائه آموزش حرفه‌ای پاراگلایدر با بالاترین استانداردهای ایمنی",
       certified: "دارای مجوز رسمی",
       appiCertified: "آکادمی مورد تایید APPI",
       experience: "سال تجربه",
@@ -145,7 +170,8 @@ export const translations = {
     hero: {
       title: "Air Academy",
       subtitle: "Experience Flight With Us",
-      description: "APPI Certified Paragliding School with International Standards",
+      description:
+        "APPI Certified Paragliding School with International Standards",
       cta: "Start Learning",
       tandemCta: "Book Tandem Flight",
     },
@@ -156,7 +182,8 @@ export const translations = {
       paraPro1: {
         title: "Para Pro 1",
         subtitle: "Beginner",
-        description: "Equipment introduction, basic techniques, and first flights",
+        description:
+          "Equipment introduction, basic techniques, and first flights",
       },
       paraPro2: {
         title: "Para Pro 2",
@@ -181,14 +208,16 @@ export const translations = {
       tandem: {
         title: "Tandem Pilot",
         subtitle: "Dual Seat Instructor",
-        description: "Training for passenger flights and APPI Tandem certification",
+        description:
+          "Training for passenger flights and APPI Tandem certification",
       },
     },
     // About
     about: {
       title: "About Academy",
       mission: "Our Mission",
-      missionText: "Providing professional paragliding training with the highest safety standards",
+      missionText:
+        "Providing professional paragliding training with the highest safety standards",
       certified: "Officially Licensed",
       appiCertified: "APPI Certified Academy",
       experience: "Years Experience",
